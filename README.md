@@ -13,6 +13,11 @@ Task: Develop an architecture diagram that includes a backend service, a fronten
 Deliverable: An architecture diagram illustrating the system's structure.
 </p>
 
+# Dagrama
+
+![image](https://github.com/user-attachments/assets/86de8902-7fe3-46d6-a3d7-5e040847fc1d)
+
+
 # Requisitos
 
  - openjdk version "17.0.2" 2022-01-18
