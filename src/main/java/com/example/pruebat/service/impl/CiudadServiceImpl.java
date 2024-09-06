@@ -15,7 +15,6 @@ public class CiudadServiceImpl implements CiudadService {
     @Autowired
     private CiudadRepository ciudadRepository;
 
-
     @Override
     public ArrayList<Ciudad> findAll(){
         return (ArrayList<Ciudad>) ciudadRepository.findAll();

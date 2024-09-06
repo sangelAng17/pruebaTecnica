@@ -3,6 +3,7 @@ package com.example.pruebat.service.impl;
 
 import com.example.pruebat.persistence.entity.Reserva;
 import com.example.pruebat.persistence.entity.Servicio;
+import com.example.pruebat.persistence.repository.PersonaRepository;
 import com.example.pruebat.persistence.repository.ReservaRepository;
 import com.example.pruebat.persistence.repository.ServicioRepository;
 import com.example.pruebat.service.ReservaService;
@@ -20,6 +21,8 @@ public class ReservaServiceImpl implements ReservaService {
     @Autowired
     private ServicioRepository servicioRepository;
 
+    @Autowired
+    private PersonaRepository personaRepository;
 
     @Override
     public ArrayList<Reserva> findAll(){
@@ -62,11 +65,11 @@ public class ReservaServiceImpl implements ReservaService {
             Servicio servicio= servicioRepository.findAllByIdServicio(reserva.servicio.getIdServicio());
             servicio.setCheckblock(Boolean.TRUE);
             servicioRepository.save(servicio);
-
+            personaRepository.save(reserva.persona);
             reservaRepository.save(reserva);
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
-        return reserva;
+        return reservaRepository.findAllById(reserva.getId());
     }
 }
