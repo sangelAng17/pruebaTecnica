@@ -13,7 +13,7 @@ Task: Develop an architecture diagram that includes a backend service, a fronten
 Deliverable: An architecture diagram illustrating the system's structure.
 </p>
 
-# Dagrama
+# Diagrama
 
 ![image](https://github.com/user-attachments/assets/86de8902-7fe3-46d6-a3d7-5e040847fc1d)
 
