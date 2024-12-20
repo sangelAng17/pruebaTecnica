@@ -23,8 +23,29 @@ acceder a ellos. Define las clases Libro y Revista:
 * La clase Revista debe tener un atributo adicional: tipo (tipoRevista): define el tipo derevista (mínimo 5) y deben ser definidos por un enumerado.
 * Cada clase debe tener su propio constructor para inicializar sus atributos y sobrescribir el método toString() para proporcionar una representación de cadena adecuada del objeto.
 
-
-
+Define una clase Biblioteca:
+* La clase Biblioteca debe tener una lista de recursos disponibles y un método para
+agregar un recurso a la biblioteca.
+* Debe tener un método llamado prestarRecurso(int id) que cambie el estado de
+disponibilidad del recurso con el ID proporcionado.
+* Implementa un método buscarRecursoPorTitulo(String titulo) que devuelva una lista
+de recursos (puede ser tanto libros como revistas) con un título específico.
+*  Todos los métodos de Biblioteca son definidos por una interfaz.
+Prueba del Sistema:
+*    rea instancias de varios libros y revistas.
+*  Agrega estos recursos a una instancia de la clase Biblioteca.
+*  Realiza algunas operaciones de préstamo y búsqueda para demostrar el
+funcionamiento del sistema.
+Instrucciones:
+*  Implementa las clases Recurso, Libro, Revista y Biblioteca según las especificaciones
+dadas.
+*  Utiliza los conceptos de herencia, polimorfismo, encapsulamiento y abstracción en tu
+implementación.
+*  Proporciona un ejemplo de uso del sistema en un método main() para demostrar el
+funcionamiento de las clases.
+*  Asegúrate que el código esté organizado y documentado.
+*  Entrega el código fuente con el diagrama de clases (en formato de imagen) en un
+archivo comprimido (.zip) titulado BibliotecaCampus.zip
 
 
 
