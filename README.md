@@ -4,7 +4,21 @@
 # Desafio
 
 <p>
-## Prueba de conocimientos en Java
+ Prueba de conocimientos en Java
+
+1. Ejercicio Práctico de Programación Orientada a Objetos en Java
+
+Se requiere un sistema para una biblioteca. Se deben modelar las clases necesarias para gestionar los diferentes tipos de recursos que tiene la biblioteca, como libros y revistas. Se debe aplicar los conceptos de programación orientada a objetos en este escenario.Define una clase Recurso que debe tener los siguientes atributos privados:
+
+ **Andrés Villanueva** 
+
+ id (int): identificador único del recurso.
+ titulo (String): título del recurso.
+ disponible (boolean): indica si el recurso está disponible para préstamo
+
+
+
+
 
 
 
