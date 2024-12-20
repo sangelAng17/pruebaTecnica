@@ -6,7 +6,7 @@
 <p>
  Prueba de conocimientos en Java
 
-1. Ejercicio Práctico de Programación Orientada a Objetos en Java
+## 1. Ejercicio Práctico de Programación Orientada a Objetos en Java
 
 Se requiere un sistema para una biblioteca. Se deben modelar las clases necesarias para gestionar los diferentes tipos de recursos que tiene la biblioteca, como libros y revistas. Se debe aplicar los conceptos de programación orientada a objetos en este escenario.Define una clase Recurso que debe tener los siguientes atributos privados:
 
@@ -47,7 +47,7 @@ funcionamiento de las clases.
 *  Entrega el código fuente con el diagrama de clases (en formato de imagen) en un
 archivo comprimido (.zip) titulado BibliotecaCampus.zip
 
-2. Ejercicio Práctico de Patrones de Diseño en Java
+## 2. Ejercicio Práctico de Patrones de Diseño en Java
 
 Analizar el siguiente diagrama de clases:
 
@@ -62,7 +62,7 @@ CambiarEntrada = iniciarAplicación, scanearDispositivosEnLaRed, seleccionarDisp
 *   Asegúrate que el código esté organizado y documentado.
 *   Entrega el código fuente con el diagrama de clases (en formato de imagen) en un archivo comprimido (.zip) titulado PatronDisenoCampus.zip
 
-3. Ejercicio práctico de Spring Boot
+## 3. Ejercicio práctico de Spring Boot
 Configuración del Proyecto
 Cree un nuevo proyecto de Spring Boot utilizando Spring Initializer (https://start.spring.io/)
 con las siguientes configuraciones:
